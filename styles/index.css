@@ -237,8 +237,13 @@ button:hover{
     width: 600px;
     margin: auto;
     border-top: 1px solid rgba(138, 150, 163, .25);
+    border-left: 1px solid rgba(138, 150, 163, .25);
+    border-right: 1px solid rgba(138, 150, 163, .25);
+    border-bottom: 1px solid rgba(138, 150, 163, .25);
     display: flex;
     flex-direction: column;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 .posts-header-button{
@@ -263,13 +268,117 @@ button:hover{
     padding: 15px;
 }
 
+.posts-recent{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.posts-recent-text{
+    font-size: 16px;
+    color: #8A96A3;
+    font-weight: 500;
+}
+
+.search img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
 .post{
-    border-left: 1px solid rgba(138, 150, 163, .25);
-    border-right: 1px solid rgba(138, 150, 163, .25);
-    border-bottom: 1px solid rgba(138, 150, 163, .25);
     text-align: center;
+    padding: 0px 16px;
+    position: relative;
+}
+
+.post-person-info{
+    display: flex;
+    gap: 10px;
+}
+.post-person-image img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.post-person-name{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8A96A3;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+.post-person-name a{
+    margin-bottom: 10px;
+}
+
+.post-person-name img{
+    width: 16px;
+    height: 16px;
+}
+
+.post-person-name span{
+    margin-right: 5px;
+}
+
+.post-text{
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.post-text a{
+    color: #00AFF0;
+}
+
+.post-image-wrapper{
+    margin-bottom: 20px;
 }
 
 .post-image{
-    width: 590px;
+    width: 568px;
+}
+
+.post-info{
+    display: flex;
+    text-align: start;
+    gap: 15px;
+}
+.likes-icon, .post-comments, .post-bookmarks{
+    cursor: pointer;
+}
+
+.post-likes{
+    width: 30px;
+}
+
+.likes-icon{
+    margin-bottom: 15px;
+}
+
+.post-date{
+    position: absolute;
+    top: 0;
+    right: 16px;
+    color: #8A96A3;
+}
+
+.post-comments{
+    margin-right: 450px;
+}
+
+.likes-text{
+    text-align: start;
+    color: #242529;
+    display: flex;
+    font-weight: 300;
+}
+
+.likes-text p{
+    font-weight: 600;
+    margin-right: 5px;
 }
