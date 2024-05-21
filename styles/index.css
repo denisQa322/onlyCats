@@ -141,7 +141,7 @@ header{
     gap: 5px;
 }
 
-button{
+.links a{
     display: flex;
     flex-direction: row;
     font-size: 14px;
@@ -221,12 +221,15 @@ button:hover{
 .subscribe-button{
     text-align: center;
     font-size: 14px;
-    font-weight: 500;
-    color: #FEFEFE;
     border-radius: 30px;
     background-color: #00AFF0;
     padding: 14px 22px;
     cursor: pointer;
+}
+
+.subscribe-button a{
+    font-weight: 500;
+    color: #FEFEFE;
 }
 
 .subscribe-button:hover{
