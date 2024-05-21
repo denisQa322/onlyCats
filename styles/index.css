@@ -289,7 +289,7 @@ button:hover{
 
 .post{
     text-align: center;
-    padding: 0px 16px;
+    padding: 10px 16px;
     position: relative;
 }
 
@@ -370,6 +370,7 @@ button:hover{
     top: 0;
     right: 16px;
     color: #8A96A3;
+    padding-top: 10px;
 }
 
 .post-date:hover{
