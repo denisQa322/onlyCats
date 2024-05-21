@@ -17,11 +17,13 @@ a{
 header{
     width: 600px;
     margin: auto;
+    position: relative;
 }
 
 .header-name{
     text-align: center;
-    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
     background-color: #00AFF0;
     width: 600px;
     padding: 20px;
@@ -165,6 +167,36 @@ button:hover{
     border-top: 1px solid rgba(138, 150, 163, .25);
     border-left: 1px solid rgba(138, 150, 163, .25);
     border-right: 1px solid rgba(138, 150, 163, .25);
+}
+
+.home-side a{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: -350px;
+    margin-top: 20px;
+    font-size: 33px;
+    color: #8A96A3;
+}
+
+.home-side a:hover{
+    color: #00AFF0;
+}
+
+.home-side a img{
+    width: 240px;
+}
+
+.subscribe-side{
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: -400px;
+    border: 1px solid rgba(138, 150, 163, .25);
+    border-radius: 15px;
+    width: 370px;
+    padding-bottom: 16px;
 }
 
 .subscribe{
