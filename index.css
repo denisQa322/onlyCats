@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+
+a{
+    color: black;
+}
+
+header{
+    width: 600px;
+    margin: auto;
+}
+
+.header-name{
+    text-align: center;
+    font-size: 30px;
+    background-color: #00AFF0;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    height: 160px;
+    background-image: url('./images/onlyfans-seeklogo-01.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    border-left:  1px solid rgba(138, 150, 163, .25);
+    border-right:  1px solid rgba(138, 150, 163, .25);
+    border-top:  1px solid rgba(138, 150, 163, .25);
+}
+
+.return{
+    display: flex;
+    cursor: pointer;
+}
+
+.arrow{
+    width: 25px;
+    height: 25px;
+}
+
+.banner-stats{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding: 0 0 0 15px;
+}
+
+.confirmed{
+    width: 19px;
+    height: 19px;
+}
+
+.banner-more{
+    display: flex;
+    align-items: center;
+}
+
+.banner-avatar{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-left:  1px solid rgba(138, 150, 163, .25);
+    border-right:  1px solid rgba(138, 150, 163, .25);
+    border-top:  1px solid rgba(138, 150, 163, .25);
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.copy-profile{
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
+
+.copy-profile img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.copy-profile:hover{
+    color: #00AFF0;
+}
+
+.banner-info{
+    padding: 16px;
+    background-color: #fff;
+    border-left:  1px solid rgba(138, 150, 163, .25);
+    border-right:  1px solid rgba(138, 150, 163, .25);
+}
+
+.profile-name{
+    padding: 0 0 15px 0;
+    color: #242529;
+}
+
+.profile-name .name{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.profile-name .name-link{
+    font-size: 14px;
+    color: #8A96A3;
+}
+
+.profile-info-link{
+    color:#00AFF0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links{
+    padding: 16px 0;
+    display: flex;
+    gap: 5px;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    border: none;
+    color: black;
+    background-color: rgb(241, 242, 244);
+    border-radius: 20px;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    color:#00AFF0
+}
+
+.divider{
+    background-color: #F6F7F8;
+    height: 8px;
+    width: 600px;
+    margin: auto;
+    border-top: 1px solid rgba(138, 150, 163, .25);
+    border-left: 1px solid rgba(138, 150, 163, .25);
+    border-right: 1px solid rgba(138, 150, 163, .25);
+}
+
+.subscribe{
+    width: 600px;
+    margin: auto;
+    border-left: 1px solid rgba(138, 150, 163, .25);
+    border-right: 1px solid rgba(138, 150, 163, .25);
+    padding-bottom: 16px;
+}
+
+
+.subscribe-header{
+    color: #8A96A3;
+    padding: 12px 16px;
+    font-weight: 500;
+}
+
+.subscribe-button-wrapper{
+    padding: 0 16px;
+}
+
+.subscribe-button{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FEFEFE;
+    border-radius: 30px;
+    background-color: #00AFF0;
+    padding: 14px 22px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover{
+    background-color: #007aff;
+}
+
+.posts{
+    width: 600px;
+    margin: auto;
+    border-top: 1px solid rgba(138, 150, 163, .25);
+    display: flex;
+    flex-direction: column;
+}
+
+.posts-header-button{
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+    padding: 2px 4px;
+    border-left: 1px solid rgba(138, 150, 163, .25);
+    border-right: 1px solid rgba(138, 150, 163, .25);
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
+
+.posts-header-button:hover{
+    color: #00AFF0;
+}
+
+.posts-header-text{
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.post{
+    border-left: 1px solid rgba(138, 150, 163, .25);
+    border-right: 1px solid rgba(138, 150, 163, .25);
+    border-bottom: 1px solid rgba(138, 150, 163, .25);
+    text-align: center;
+}
+
+.post-image{
+    width: 590px;
+}
