@@ -155,7 +155,7 @@ header{
     cursor: pointer;
 }
 
-button:hover{
+.links a:hover{
     color:#00AFF0
 }
 
