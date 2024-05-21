@@ -314,6 +314,7 @@ button:hover{
 }
 
 .post-person-name a{
+    display: flex;
     margin-bottom: 10px;
 }
 
@@ -322,8 +323,12 @@ button:hover{
     height: 16px;
 }
 
-.post-person-name span{
+.post-person-name p{
     margin-right: 5px;
+}
+
+.post-person-name a:hover{
+    text-decoration: underline;
 }
 
 .post-text{
@@ -365,6 +370,12 @@ button:hover{
     top: 0;
     right: 16px;
     color: #8A96A3;
+}
+
+.post-date:hover{
+    text-decoration: underline;
+    color: #00AFF0;
+    cursor: pointer;
 }
 
 .post-comments{
